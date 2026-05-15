@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Large / generated (keep models if submitting trained project)
+# Uncomment if ZIP is too large:
+# models/*.pkl
+# data/processed/*.npy

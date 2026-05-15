@@ -1,0 +1,587 @@
+{
+  "dataset_structure": "dataset/ME, dataset/NOT_ME",
+  "me_source": "C:\\Users\\Sri ChiMRaNi\\projects\\face-recognition-system\\dataset\\ME",
+  "not_me_source": "C:\\Users\\Sri ChiMRaNi\\projects\\face-recognition-system\\dataset\\NOT_ME",
+  "n_samples": 143,
+  "n_me": 123,
+  "n_not_me": 20,
+  "feature_dim": 10000,
+  "face_size": [
+    100,
+    100
+  ],
+  "samples": [
+    {
+      "source": "IMG-20251106-WA0016.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0017.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0018.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0020.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0021.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0022.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0023.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0026.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251106-WA0027.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0013.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0014.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0015.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0016.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0017.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0018.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0019(1).jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0019.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0020(1).jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0020.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0021.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0022.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0023.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20251127-WA0024.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0021.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0022.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0024.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0042.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0044.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0046.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0048.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260213-WA0052.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0053.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0056.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0058.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0062.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0064.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0069.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0071(1).jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0071.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0073.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0075.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0077.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0079.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260215-WA0080.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG-20260422-WA0075.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_20260110_235922.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_20260319_212452_912.webp",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4452.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4453.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4454.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4455.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4456.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4457.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4458.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4459.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4460.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4461.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4463.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4464.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4465.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4466.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4467.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4469.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4470.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4471.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4472.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4473.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4474.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4475.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4476.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4483.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4484.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4485.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4486.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4487.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4488.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4489.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4490.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4491.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4492.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4493.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4494.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4495.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4496.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4497.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4511.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4512.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4513.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4514.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4515.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4519.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4520.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4521.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4522.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4523.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4524.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4525.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4526.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4527.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4529.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4530.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4531.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4532.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4533.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4565.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4567.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4568.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4569.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4570.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4571.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4574.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4575.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4576.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4577.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4578.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4579.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4580.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "IMG_4581.JPG",
+      "label": "ME"
+    },
+    {
+      "source": "Snapchat-1560125859.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "Snapchat-1784723969.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "Snapchat-603483155.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "Snapchat-735774853.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "Snapchat-824031892.jpg",
+      "label": "ME"
+    },
+    {
+      "source": "1.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "10.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "11.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "12.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "13.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "14.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "15.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "16.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "17.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "18.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "19.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "2.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "20.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "3.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "4.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "5.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "6.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "7.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "8.jpg",
+      "label": "NOT ME"
+    },
+    {
+      "source": "9.jpg",
+      "label": "NOT ME"
+    }
+  ]
+}

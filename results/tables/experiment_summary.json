@@ -1,0 +1,14 @@
+{
+  "project": "Web-Based Visual Recognition System",
+  "dataset_total": 143,
+  "dataset_me": 123,
+  "dataset_not_me": 20,
+  "train_samples": 114,
+  "test_samples": 29,
+  "best_model": "kNN",
+  "best_f1": 0.9209,
+  "best_accuracy": 0.931,
+  "split": "80/20 stratified",
+  "feature_dim_raw": 10000,
+  "pca_components": 50
+}

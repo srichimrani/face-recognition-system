@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1_score,confusion_matrix,accuracy_pct,f1_pct
+Logistic Regression,0.8966,0.8877,0.8966,0.8902,"[[24, 1], [2, 2]]",89.66,89.02
+Decision Tree,0.8276,0.8086,0.8276,0.817,"[[23, 2], [3, 1]]",82.76,81.7
+kNN,0.931,0.9361,0.931,0.9209,"[[25, 0], [2, 2]]",93.1,92.09

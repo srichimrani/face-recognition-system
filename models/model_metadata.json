@@ -1,0 +1,63 @@
+{
+  "best_model": "kNN",
+  "best_f1": 0.9208664898320071,
+  "all_results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8966,
+      "precision": 0.8877,
+      "recall": 0.8966,
+      "f1_score": 0.8902,
+      "confusion_matrix": [
+        [
+          24,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.8276,
+      "precision": 0.8086,
+      "recall": 0.8276,
+      "f1_score": 0.817,
+      "confusion_matrix": [
+        [
+          23,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "model": "kNN",
+      "accuracy": 0.931,
+      "precision": 0.9361,
+      "recall": 0.931,
+      "f1_score": 0.9209,
+      "confusion_matrix": [
+        [
+          25,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "classes": [
+    "ME",
+    "NOT ME"
+  ],
+  "train_samples": 114,
+  "test_samples": 29
+}

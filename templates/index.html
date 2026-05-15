@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Recognition System | ME vs NOT ME</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <h1>Web-Based Visual Recognition System</h1>
+    <p class="subtitle">ML Techniques + Google Teachable Machine + Flask</p>
+  </header>
+
+  <main class="container">
+    {% if not ml_ready %}
+    <section class="alert alert-warning">
+      Classical ML model not trained yet. Run <code>python run_pipeline.py</code> after adding images to <code>dataset/ME/</code> and <code>dataset/NOT_ME/</code>.
+    </section>
+    {% endif %}
+    {% if not tm_available %}
+    <section class="alert alert-warning">
+      <strong>Teachable Machine:</strong> Export Keras model from
+      <a href="https://teachablemachine.withgoogle.com/" target="_blank" rel="noopener">teachablemachine.withgoogle.com</a>,
+      then run <code>setup_teachable_machine.bat</code> or
+      <code>python scripts/setup_teachable_machine.py your_model.zip</code>
+    </section>
+    {% endif %}
+
+    <section class="controls card">
+      <h2>Prediction Settings</h2>
+      <div class="control-row">
+        <label for="modelSelect">Active Model</label>
+        <select id="modelSelect">
+          <option value="ml">Classical ML ({{ best_model_name }})</option>
+          <option value="tm" {% if not tm_available %}disabled{% endif %}>Google Teachable Machine</option>
+          <option value="both">Compare Both Models</option>
+        </select>
+      </div>
+      <div class="control-row">
+        <label>Input Source</label>
+        <div class="btn-group">
+          <button type="button" id="btnWebcam" class="btn btn-primary active">Webcam</button>
+          <button type="button" id="btnUpload" class="btn btn-secondary">Upload Image</button>
+        </div>
+      </div>
+      <input type="file" id="fileInput" accept="image/*" hidden>
+    </section>
+
+    <section class="main-grid">
+      <div class="card video-card">
+        <h2>Live Feed / Preview</h2>
+        <div class="video-wrapper">
+          <video id="webcam" autoplay playsinline muted></video>
+          <img id="preview" alt="Upload preview" hidden>
+          <canvas id="captureCanvas" hidden></canvas>
+        </div>
+        <div class="video-actions">
+          <button type="button" id="btnStartCam" class="btn btn-primary">Start Webcam</button>
+          <button type="button" id="btnCapture" class="btn btn-accent" disabled>Capture & Predict</button>
+        </div>
+      </div>
+
+      <div class="card result-card">
+        <h2>Recognition Result</h2>
+        <div id="resultPanel" class="result-panel neutral">
+          <div id="statusIndicator" class="status-indicator"></div>
+          <p id="resultLabel" class="result-label">Waiting for input...</p>
+          <p id="resultConfidence" class="result-confidence">Confidence: —</p>
+          <p id="resultModel" class="result-model">Model: —</p>
+        </div>
+        <div id="compareResults" class="compare-results" hidden></div>
+        <img id="annotatedImage" class="annotated-image" alt="Annotated face" hidden>
+      </div>
+    </section>
+
+    <section class="card legend">
+      <h2>Indicator Legend</h2>
+      <ul>
+        <li><span class="dot dot-me"></span> <strong>GREEN</strong> — Identified as <strong>ME</strong></li>
+        <li><span class="dot dot-not"></span> <strong>RED</strong> — Identified as <strong>NOT ME</strong></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>University AI Project — Face Recognition using OpenCV, scikit-learn, TensorFlow & Flask</p>
+  </footer>
+
+  <script>
+    window.APP_CONFIG = {
+      mlReady: {{ 'true' if ml_ready else 'false' }},
+      tmAvailable: {{ 'true' if tm_available else 'false' }}
+    };
+  </script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
